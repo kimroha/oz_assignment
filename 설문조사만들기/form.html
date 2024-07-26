@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>설문조사양식</title>
+</head>
+<body>
+    <h1>설문조사 양식</h1>
+    <p>모든 항목에 빠짐없이 체크해주십시오.</p>
+    </body>
+    <header>
+    <hr>
+    <main>
+    <form>
+        <fieldset>
+            <legend>개인정보</legend>
+            <label for="name">이름</label>
+            <input type="text" 
+            name="name"
+            id="name" placeholder="본명을 입력하세요">
+            <br>
+            <label for="name">이메일</label>
+            <input type="email" 
+            name="email"
+            id="email" placeholder="메일 주소 쓰세요">
+        </fieldset>
+        <fieldset>
+            <legend>설문</legend>
+
+            <p>좋아하는 과일은 무엇입니까?</p>
+            <input type="radio" id="apple" name="fruit">
+            <label for="apple">사과</label>
+            <input type="radio" id="orange" name="fruit">
+            <label for="orange">오렌지</label>
+            <input type="radio" id="watermelon" name="fruit">
+            <label for="watermelon">수박</label>
+            <input type="radio" id="peach" name="fruit">
+            <label for="peach">복숭아</label>
+            <input type="radio" id="grape" name="fruit">
+            <label for="grape">포도</label>
+            <input type="radio" id="other" name="age">
+            <label for="other">그 외</label>
+
+        </fieldset>
+        <fieldset>
+            <legend>기타의견</legend>
+            <textarea rows="3" cols="30" name="comment"></textarea>
+        </fieldset>
+        <input type="submit"
+    </form>
+    <main>
+    <hr>
+    <footer>
+    <p>입력하느라 수고하셨습니다.</p>
+    </footer>
+</body>
+</html>
